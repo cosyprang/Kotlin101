@@ -1,0 +1,84 @@
+//const val x = "Hello"
+fun main(args: Array<String>) {
+//     var Test = x.lowercase()
+//     println(Test)
+    
+//     var y = 20
+//     println("20 = $y")
+    
+//     println("Length of $x is : ${x.length}")
+//     println("Length of " + x + " is : " + x.length)
+    
+//     var n1 = Person("Maprang",19)
+// 	println("Name : " + n1.name)
+//     print("Age : " + n1.age)
+// 	println("Sum = " + sum(10,20))
+//    maxOf(20,10)
+//     var y = 1
+//     when (y) {
+//         1 -> print("one")
+//         2 -> print("two")
+//     }
+//     val items = listOf("apple", "banana", "kiwi")
+//     var r = 10
+    
+//     val notNullText:String = "Definitely not null"
+//     val nullableText1:String? = "Might be null"
+//     val nullableText2:String? = null
+
+// 	for (item in items) {
+//     	println(item)
+// 	}
+    
+//  	for (index in items.indices){
+//      	println("At index : $index is ${items[index]}")
+//  	}
+    
+//  	for (r in 9 downTo 0 step 3){
+//  		print("$r ")
+//  	}
+//     funny(nullableText2)
+//    val x = 15
+
+//     if (x.mod(3) == 0 && x.mod(5) == 0){
+//         println("$x is fizz & buzz")
+//     } else if (x.mod(3) == 0){
+//         println("$x is fizz")
+//     } else if (x.mod(5) == 0){
+//         println("$x is buzz")
+//     }
+    fizzBuzz(15)
+
+}
+
+fun fizzBuzz(x:Int): Unit{
+    if (x.mod(3) == 0 && x.mod(5) == 0){
+        print("$x is fizz & buzz")
+    } else if (x.mod(3) == 0){
+        print("$x is fizz")
+    } else if (x.mod(5) == 0){
+        print("$x is buss")
+    }
+}
+
+// fun funny(text:String?) {
+//     if (text != null){
+//         print(text)
+//     } else {
+//         print("Nothing to print : ")
+//     }
+// }
+
+// data class Person(var name:String, var age:Int)
+
+// fun sum(s:Int, f:Int): Int{
+//     return s+f
+// }
+
+// fun maxOf(a:Int, b:Int): Unit{
+//    if (a > b) {
+//   		print("This is a : $a")
+//     } else {
+//      	print("This is b : $b")
+//     }
+// }
